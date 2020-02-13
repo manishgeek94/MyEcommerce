@@ -7,11 +7,22 @@ from math import ceil
 
 
 def index(request):
-    products = Product.objects.all()
+    # products = Product.objects.all()
     # print(products)
-    n = len(products)
-    nSlide = n//4 + ceil((n/4)-(n//4))
-    params = {'no_of_slides':nSlide, 'range':range(1,nSlide),   'product': products}
+    # n = len(products)
+    # nSlide = n//4 + ceil((n/4)-(n//4))
+    # params = {'no_of_slides':nSlide, 'range':range(1,nSlide),   'product': products}
+    # allProds = [[products,range(1,nSlide),nSlide],
+    #             [products,range(1,nSlide),nSlide]]
+    allProds = []
+    catprods = Product.objects.values('category','id')
+    cats = {item['category'] for item in catprods}
+    for cat in cats:
+        prod = Product.objects.filter(category=cat)
+        n = len(prod)
+        nSlide = n//4 + ceil((n/4)-(n//4))
+        allProds.append([prod,range(1,nSlide),nSlide])
+    params = {'allProds':allProds}
     return render(request, 'shop/index.html', params)
 
 def about(request):

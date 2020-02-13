@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="392b12fa-908b-4ef4-a278-9ffaf31e28f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyECOM/shop/templates/shop/Cart logic explanation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyECOM/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyECOM/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyECOM/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/MyECOM/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyECOM/shop/templates/shop/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyECOM/shop/templates/shop/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyECOM/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyECOM/shop/templates/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyECOM/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyECOM/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +91,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="527" y="267" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581587387366">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="527" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1600.870@0.30.1600.870" timestamp="1581587387366" />
     <state x="530" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580381739916">
       <screen x="0" y="30" width="1600" height="870" />
     </state>
