@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("I am an index")
+    return HttpResponse("<center><h1> Hi I am an index of main project </h1></center>")
